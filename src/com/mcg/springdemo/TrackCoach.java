@@ -21,4 +21,14 @@ public class TrackCoach implements ICoach {
     public String getDailyFortune() {
         return "Just Do It: " + fortuneService.getFortune();
     }
+
+    // add an init method
+    public void doMyStartupStuff(){
+        System.out.println("TrachCoach: inside method doMyStartupStuff");
+    }
+
+    // add a destory method
+    public void doMyCleanupStuffYoYo(){
+        System.out.println("TrachCoach: inside method doMyCleanupStuffYoYo");
+    }
 }
