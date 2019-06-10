@@ -1,3 +1,5 @@
 *.jar
 lib/
 out/
+.idea
+target
